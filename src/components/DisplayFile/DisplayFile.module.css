@@ -1,0 +1,18 @@
+.container{
+    /* border: 1px solid red; */
+    height: fit-content;
+    margin: 10px 5px;
+    padding: 5px 20px;
+}
+
+.container:hover{
+    cursor: pointer;
+    background-color: rgb(218, 234, 249);
+}
+
+.fileName{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

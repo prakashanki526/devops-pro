@@ -1,0 +1,77 @@
+.container{
+    height: fit-content ;
+    width: 350px;
+    padding: 10px 20px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.subtitle{
+    color: grey;
+    margin-top: 20px;
+}
+
+.textAreaContainer{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.editorContainer{
+    margin: 10px 0;
+    height: 40vh;
+    border: 0.1px solid rgb(213, 213, 213);
+    overflow-y: scroll;
+}
+
+.textArea{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 0.1px solid rgb(213, 212, 212);
+    border-radius: 5px;
+    resize: none;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 18px;
+    background-color: #142683;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    border: 0;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.btn:active{
+    transform: translateY(1px);
+}
+
+.subtitleContainer{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+.autoSave{
+    color: grey;
+    font-size: smaller;
+}

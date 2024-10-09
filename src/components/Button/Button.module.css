@@ -1,0 +1,26 @@
+.container{
+    height: 25px;
+    width: fit-content;
+    padding: 2px 10px;
+    border: 1px solid #445EE2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #445EE2;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.container:hover{
+    cursor: pointer;
+    background-color: rgb(236, 235, 235);
+}
+
+.container:active{
+    transform: translateY(1.5px);
+}
+
+.icon{
+    margin-right: 10px;
+}

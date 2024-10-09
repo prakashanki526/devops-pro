@@ -1,0 +1,105 @@
+.container{
+    height: 100%;
+    width: 70%;
+    padding: 0 3rem;
+    /* position: relative; */
+}
+
+
+.lower{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    /* position: absolute; */
+    /* border: 1px solid red; */
+}
+
+.btns{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inputField{
+    width: 30vw;
+    height: 28px;
+    border: 0.1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.btn{
+    border: 0.5px solid rgb(168, 167, 167);
+    padding: 7px;
+    margin: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn:active{
+    transform: translateY(1px);
+}
+
+.hr{
+    margin-top: 20px;
+    border: 0.1px solid rgb(231, 230, 230);
+}
+
+.crumbleContainer{
+    height: 30px;
+    color: #767f89;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.inputContainer{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.suggestionContainer{
+    border: 0.1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.searchIcon{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.matchingFile{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.matchingFile:hover{
+    cursor: pointer;
+    background-color: #cfdef5;
+}

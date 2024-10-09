@@ -1,0 +1,76 @@
+.container{
+    width: 25%;
+    height: 100%;
+    background-color: #E5E5E5;
+    /* padding: 0 3rem; */
+    position: relative;
+}
+
+.logoContainer{
+    height: 3rem;
+    margin-top: 2rem;
+    position: relative;
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.buttonsContainer{
+    position: relative;
+    height: 2.5rem;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.folderContainer{
+    height: 60vh;
+    margin: 10px 0;
+    overflow-y: scroll;
+    /* border: 1px solid red; */
+    /* width: 105%; */
+    padding-right: 30px;
+    padding: 0 2rem 0 3rem;
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lockBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 18px;
+    background-color: #445EE2;
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+    border-radius: 5px;
+    width: 75%;
+    border: 0;
+}
+
+.lockBtn:hover{
+    cursor: pointer;
+    background-color: #5872f4;
+}
+
+.lockBtn:active{
+    transform: translateY(2px);
+    box-shadow: 0 0 15px 3px #9babf7;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
