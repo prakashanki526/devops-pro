@@ -2,7 +2,7 @@ FROM node:19-alpine3.15
 
 WORKDIR /devops-pro
 
-COPY ./devops-pro /devops-pro
+COPY . .
 
 RUN npm install --legacy-peer-deps
 
